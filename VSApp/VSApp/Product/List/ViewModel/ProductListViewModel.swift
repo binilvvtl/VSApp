@@ -68,7 +68,7 @@ class ProductListViewModel {
     }
     
     func getProduct(index: IndexPath) -> Product? {
-        return products[safe: index.row]
+        return filteredProducts[safe: index.row]
     }
 }
 

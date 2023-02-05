@@ -83,12 +83,6 @@ final class ProductListViewController: UIViewController {
                        actionTitles: ["Okay".localized()],
                        actionStyles: [.cancel],
                        actions: [])
-        
-        
-//        self.openAlert(title: "", message: "loginSuccessful".localized() , alertStyle: .alert, actionTitles: ["Okay".localized()], actionStyles: [.default, .cancel], actions: [
-//            {
-//            }
-//           ])
     }
     
     // MARK: - Making API call to fetch Articles
@@ -192,22 +186,18 @@ extension ProductListViewController: UITableViewDataSource, UITableViewDelegate,
         let alert = UIAlertController(title: nil, message: nil, preferredStyle: .actionSheet)
         let sortByBrandAction = UIAlertAction(title: "Sort by Brand", style: .default) { _ in
             self.viewModel.sort(by: .brand)
-            self.tableView.reloadData()
         }
         
         let sortByNameAction = UIAlertAction(title: "Sort by Name", style: .default) { _ in
             self.viewModel.sort(by: .name)
-            self.tableView.reloadData()
         }
         
         let sortByPriceAction = UIAlertAction(title: "Sort by Price", style: .default) { _ in
             self.viewModel.sort(by: .price)
-            self.tableView.reloadData()
         }
         
         let sortByOfferPriceAction = UIAlertAction(title: "Sort by Offer Price", style: .default) { _ in
             self.viewModel.sort(by: .offerPrice)
-            self.tableView.reloadData()
         }
         
         let cancelAction = UIAlertAction(title: "Cancel", style: .cancel, handler: nil)
