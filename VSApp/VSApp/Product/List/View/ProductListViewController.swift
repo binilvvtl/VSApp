@@ -14,9 +14,6 @@ final class ProductListViewController: UIViewController {
     // MARK: - Properties
     let searchController = UISearchController(searchResultsController: nil)
     private var viewModel = ProductListViewModel()
-    var items = [Product]()
-    var searchItems = [Product]()
-    var searching = false
     private var child: VSSpinnerViewController?
     let messageLabel = UILabel()
     
@@ -63,23 +60,6 @@ final class ProductListViewController: UIViewController {
             childSpinner.removeFromParent()
             self?.child = nil
         }
-    }
-    
-    // show alert with please try agian later
-    func showAlertSomethingWentWrong() {
-        self.openAlert(title: "error".localized(),
-                       message: "somethingWentWrongWithLater".localized(),
-                       alertStyle: .alert,
-                       actionTitles: ["Okay".localized(), "Cancel".localized()],
-                       actionStyles: [.default, .cancel],
-                       actions: [
-                        {_ in
-                            
-                        },
-                        {_ in
-                            
-                        }
-                       ])
     }
     
     // show alert with please try agian later and refresh Api call

@@ -10,6 +10,7 @@ import UIKit
 enum Storyboards: String {
 case productList = "ProductList"
 case productDetail = "ProductDetail"
+case profile = "Profile"
 case login = "Main"
     
     var instance: UIStoryboard {

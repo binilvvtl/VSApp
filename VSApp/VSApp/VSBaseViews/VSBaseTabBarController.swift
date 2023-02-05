@@ -30,7 +30,7 @@ class VSBaseTabBarController: UITabBarController {
         let homeNavigationController = VSBaseNavigationController(rootViewController: homeViewController)
         homeNavigationController.tabBarItem = UITabBarItem(title: "home".localized(), image: UIImage(systemName: "homekit"), selectedImage: UIImage(systemName: "homekit"))
         
-        let profileViewController = ProfileViewController()
+        let profileViewController = Storyboards.profile.instantiateVC(ProfileViewController.self)
         let profileNavigationController = VSBaseNavigationController(rootViewController: profileViewController)
         profileNavigationController.tabBarItem = UITabBarItem(title: "profile".localized(), image: UIImage(systemName: "person.fill"), selectedImage: UIImage(systemName: "person.fill"))
         
