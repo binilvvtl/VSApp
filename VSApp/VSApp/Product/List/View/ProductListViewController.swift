@@ -85,7 +85,7 @@ final class ProductListViewController: UIViewController {
                        actions: [])
     }
     
-    // MARK: - Making API call to fetch Articles
+    // MARK: - Making API call to fetch Product
     
     func fetchProductList() {
         createSpinnerView()

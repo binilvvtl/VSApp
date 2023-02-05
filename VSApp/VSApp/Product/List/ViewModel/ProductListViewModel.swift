@@ -42,8 +42,8 @@ class ProductListViewModel {
         apiService?.getProductList{ [weak self] response in
         switch response {
         case .success(let data):
-            self?.products = data ?? []
-            self?.filteredProducts = data ?? []
+            self?.products = data
+            self?.filteredProducts = data
           self?.delegate?.didFinishFetchingProductListResponse(results: data, error: nil)
         case .failure(let error):
           self?.delegate?.didFinishFetchingProductListResponse(results: nil, error: error)

@@ -49,17 +49,7 @@ final class ProfileViewController: UIViewController {
             self?.child = nil
         }
     }
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
+    
     // show alert with please try agian later and refresh Api call
     func showAlertWithReloadApiCall() {
         self.openAlert(title: "Error",

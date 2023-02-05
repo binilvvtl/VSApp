@@ -10,6 +10,13 @@
 		3818D960405413AC0FC3C822 /* Pods_VSApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA53771157A4A6B746F35393 /* Pods_VSApp.framework */; };
 		934A859D6AC5DFD6246CC880 /* Pods_VSApp_VSAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 850F9AA199B11FF0789247F0 /* Pods_VSApp_VSAppUITests.framework */; };
 		9668F4876D2F36DC9FA6B3E5 /* Pods_VSAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 941AD699DA564953A13F8886 /* Pods_VSAppTests.framework */; };
+		FB40908A2990320B000F8741 /* LoginViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4090892990320B000F8741 /* LoginViewModelTests.swift */; };
+		FB40908C29903632000F8741 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = FB40908B29903632000F8741 /* SDWebImage */; };
+		FB40908D2990374D000F8741 /* ProfileList.json in Resources */ = {isa = PBXBuildFile; fileRef = FB9A7771298FCBCD008EE4CE /* ProfileList.json */; };
+		FB40908E29903750000F8741 /* ProductList.json in Resources */ = {isa = PBXBuildFile; fileRef = FB9A7773298FCBF9008EE4CE /* ProductList.json */; };
+		FB409090299037AA000F8741 /* XCTestExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB40908F299037AA000F8741 /* XCTestExtension.swift */; };
+		FB4090922990381B000F8741 /* ProfileViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4090912990381B000F8741 /* ProfileViewModelTests.swift */; };
+		FB409095299042D7000F8741 /* ProductListViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB409094299042D7000F8741 /* ProductListViewModelTests.swift */; };
 		FB9A7714298F8137008EE4CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9A7713298F8137008EE4CE /* AppDelegate.swift */; };
 		FB9A7716298F8137008EE4CE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9A7715298F8137008EE4CE /* SceneDelegate.swift */; };
 		FB9A771D298F8137008EE4CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB9A771C298F8137008EE4CE /* Assets.xcassets */; };
@@ -33,8 +40,6 @@
 		FB9A7769298F9CE5008EE4CE /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9A7768298F9CE5008EE4CE /* LoginViewController.swift */; };
 		FB9A776C298FC76A008EE4CE /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9A776B298FC76A008EE4CE /* LoginViewModel.swift */; };
 		FB9A776E298FCB6C008EE4CE /* VSBaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9A776D298FCB6C008EE4CE /* VSBaseNavigationController.swift */; };
-		FB9A7772298FCBCD008EE4CE /* ProfileList.json in Resources */ = {isa = PBXBuildFile; fileRef = FB9A7771298FCBCD008EE4CE /* ProfileList.json */; };
-		FB9A7774298FCBF9008EE4CE /* ProductList.json in Resources */ = {isa = PBXBuildFile; fileRef = FB9A7773298FCBF9008EE4CE /* ProductList.json */; };
 		FB9A7777298FCD82008EE4CE /* ProductListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9A7775298FCD82008EE4CE /* ProductListTableViewCell.swift */; };
 		FB9A7778298FCD82008EE4CE /* ProductListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB9A7776298FCD82008EE4CE /* ProductListTableViewCell.xib */; };
 		FB9A777B298FD19F008EE4CE /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = FB9A777A298FD19F008EE4CE /* SDWebImage */; };
@@ -74,6 +79,10 @@
 		E3DB064A44D494FD55ED2589 /* Pods-VSAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VSAppTests.debug.xcconfig"; path = "Target Support Files/Pods-VSAppTests/Pods-VSAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		EA4C2B2CD8BD24A3B95344E0 /* Pods-VSApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VSApp.debug.xcconfig"; path = "Target Support Files/Pods-VSApp/Pods-VSApp.debug.xcconfig"; sourceTree = "<group>"; };
 		EA53771157A4A6B746F35393 /* Pods_VSApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VSApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB4090892990320B000F8741 /* LoginViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModelTests.swift; sourceTree = "<group>"; };
+		FB40908F299037AA000F8741 /* XCTestExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCTestExtension.swift; sourceTree = "<group>"; };
+		FB4090912990381B000F8741 /* ProfileViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModelTests.swift; sourceTree = "<group>"; };
+		FB409094299042D7000F8741 /* ProductListViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListViewModelTests.swift; sourceTree = "<group>"; };
 		FB9A7710298F8137008EE4CE /* VSApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VSApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB9A7713298F8137008EE4CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FB9A7715298F8137008EE4CE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -128,6 +137,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB40908C29903632000F8741 /* SDWebImage in Frameworks */,
 				9668F4876D2F36DC9FA6B3E5 /* Pods_VSAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -209,7 +219,13 @@
 		FB9A7729298F8138008EE4CE /* VSAppTests */ = {
 			isa = PBXGroup;
 			children = (
+				FB9A7771298FCBCD008EE4CE /* ProfileList.json */,
+				FB9A7773298FCBF9008EE4CE /* ProductList.json */,
 				FB9A772A298F8138008EE4CE /* VSAppTests.swift */,
+				FB4090892990320B000F8741 /* LoginViewModelTests.swift */,
+				FB4090912990381B000F8741 /* ProfileViewModelTests.swift */,
+				FB409094299042D7000F8741 /* ProductListViewModelTests.swift */,
+				FB40908F299037AA000F8741 /* XCTestExtension.swift */,
 			);
 			path = VSAppTests;
 			sourceTree = "<group>";
@@ -332,8 +348,6 @@
 			children = (
 				FB9A771C298F8137008EE4CE /* Assets.xcassets */,
 				FB9A7780298FF01A008EE4CE /* Localizable.strings */,
-				FB9A7771298FCBCD008EE4CE /* ProfileList.json */,
-				FB9A7773298FCBF9008EE4CE /* ProductList.json */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -350,7 +364,6 @@
 		FB9A7783298FFD02008EE4CE /* Detail */ = {
 			isa = PBXGroup;
 			children = (
-				FB9A7785298FFD30008EE4CE /* ViewModel */,
 				FB9A7784298FFD27008EE4CE /* View */,
 			);
 			path = Detail;
@@ -363,13 +376,6 @@
 				FB9A7788298FFD88008EE4CE /* ProductDetailViewController.swift */,
 			);
 			path = View;
-			sourceTree = "<group>";
-		};
-		FB9A7785298FFD30008EE4CE /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		FB9A778A29900BAF008EE4CE /* ViewModel */ = {
@@ -428,6 +434,9 @@
 				FB9A7728298F8138008EE4CE /* PBXTargetDependency */,
 			);
 			name = VSAppTests;
+			packageProductDependencies = (
+				FB40908B29903632000F8741 /* SDWebImage */,
+			);
 			productName = VSAppTests;
 			productReference = FB9A7726298F8138008EE4CE /* VSAppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -503,9 +512,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB9A7774298FCBF9008EE4CE /* ProductList.json in Resources */,
 				FB9A7758298F946D008EE4CE /* ProductList.storyboard in Resources */,
-				FB9A7772298FCBCD008EE4CE /* ProfileList.json in Resources */,
 				FB9A7767298F9C54008EE4CE /* Main.storyboard in Resources */,
 				FB9A7781298FF01A008EE4CE /* Localizable.strings in Resources */,
 				FB9A7787298FFD70008EE4CE /* ProductDetail.storyboard in Resources */,
@@ -520,6 +527,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB40908D2990374D000F8741 /* ProfileList.json in Resources */,
+				FB40908E29903750000F8741 /* ProductList.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -668,7 +677,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB40908A2990320B000F8741 /* LoginViewModelTests.swift in Sources */,
+				FB409090299037AA000F8741 /* XCTestExtension.swift in Sources */,
+				FB4090922990381B000F8741 /* ProfileViewModelTests.swift in Sources */,
 				FB9A772B298F8138008EE4CE /* VSAppTests.swift in Sources */,
+				FB409095299042D7000F8741 /* ProductListViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -900,11 +913,19 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"SkyFloatingLabelTextField\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.binil.VSAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VSApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VSApp";
 			};
 			name = Debug;
@@ -921,11 +942,19 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"SkyFloatingLabelTextField\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.binil.VSAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VSApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VSApp";
 			};
 			name = Release;
@@ -1027,6 +1056,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		FB40908B29903632000F8741 /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FB9A7779298FD19F008EE4CE /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
 		FB9A777A298FD19F008EE4CE /* SDWebImage */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = FB9A7779298FD19F008EE4CE /* XCRemoteSwiftPackageReference "SDWebImage" */;

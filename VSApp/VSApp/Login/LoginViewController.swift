@@ -9,6 +9,7 @@ import UIKit
 import SkyFloatingLabelTextField
 
 final class LoginViewController: UIViewController {
+    // MARK: - Outlets
     @IBOutlet private weak var emailTextField: SkyFloatingLabelTextField!
     @IBOutlet private weak var passwordTextField: SkyFloatingLabelTextField!
     
@@ -17,11 +18,13 @@ final class LoginViewController: UIViewController {
     
     private let viewModel = LoginViewModel()
     
+    // MARK: - Life Cycles
     override func viewDidLoad() {
         super.viewDidLoad()
        setupUI()
     }
     
+    // MARK: - Functions
     private func setupUI(){
         setupEamilTextfiled()
         setupPasswordTextfiled()
@@ -58,6 +61,15 @@ final class LoginViewController: UIViewController {
         
     }
     
+    private func updateShowHidePasswordHintImage() {
+        if passwordTextField.isSecureTextEntry {
+            showPassword.setImage(UIImage(systemName: "eye.slash.fill"), for: .normal)
+        } else {
+            showPassword.setImage(UIImage(systemName: "eye.fill"), for: .normal)
+        }
+    }
+    
+    // MARK: - Actions
     @IBAction private func loggedIn(_ sender: Any) {
         
         viewModel.email = emailTextField.text
@@ -75,14 +87,6 @@ final class LoginViewController: UIViewController {
             tabVC.modalPresentationStyle = .fullScreen
             tabVC.modalTransitionStyle = .crossDissolve
             self.present(tabVC, animated: true)
-        }
-    }
-    
-    private func updateShowHidePasswordHintImage() {
-        if passwordTextField.isSecureTextEntry {
-            showPassword.setImage(UIImage(systemName: "eye.slash.fill"), for: .normal)
-        } else {
-            showPassword.setImage(UIImage(systemName: "eye.fill"), for: .normal)
         }
     }
     
