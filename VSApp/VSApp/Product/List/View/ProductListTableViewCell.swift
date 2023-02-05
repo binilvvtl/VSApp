@@ -10,6 +10,8 @@ import SDWebImage
 
 class ProductListTableViewCell: UITableViewCell {
     
+    @IBOutlet weak var bannerView: UIView!
+    @IBOutlet weak var containerStack: UIStackView!
     @IBOutlet private weak var detailLabel: UILabel!
     @IBOutlet private weak var brandLabel: UILabel!
     @IBOutlet private weak var priceLabel: UILabel!

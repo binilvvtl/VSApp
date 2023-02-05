@@ -36,6 +36,7 @@
 "invalidPassword" = "Invalid Password";
 "email" = "Email";
 "password" = "Password";
+"loginSuccessful" = "Thank you for joining our rewards program";
 "emptySearchResult" = "Please try again with different text";
 "somethingWentWrong" = "Something Went Wrong, Please try again!!!";
 "somethingWentWrongWithLater" = "Something Went Wrong, Please try again later!!!";

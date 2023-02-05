@@ -76,6 +76,21 @@ final class ProductListViewController: UIViewController {
                        ])
     }
     
+    @objc func viewTapped(gesture: UITapGestureRecognizer) {
+        self.openAlert(title: "",
+                       message: "loginSuccessful".localized(),
+                       alertStyle: .alert,
+                       actionTitles: ["Okay".localized()],
+                       actionStyles: [.cancel],
+                       actions: [])
+        
+        
+//        self.openAlert(title: "", message: "loginSuccessful".localized() , alertStyle: .alert, actionTitles: ["Okay".localized()], actionStyles: [.default, .cancel], actions: [
+//            {
+//            }
+//           ])
+    }
+    
     // MARK: - Making API call to fetch Articles
     
     func fetchProductList() {
@@ -148,6 +163,12 @@ extension ProductListViewController: UITableViewDataSource, UITableViewDelegate,
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(ProductListTableViewCell.self, indexPath: indexPath)
         cell.setupView(item: viewModel.getProduct(index: indexPath))
+        let tapGesture = UITapGestureRecognizer(target: self, action: #selector(viewTapped(gesture:)))
+        cell.bannerView.addGestureRecognizer(tapGesture)
+        cell.bannerView.isHidden = true
+        if indexPath.row == 1 {
+            cell.bannerView.isHidden = false
+        }
         return cell
     }
     

@@ -20,7 +20,7 @@ extension UIViewController {
         
         let alertController = UIAlertController(title: title, message: message, preferredStyle: alertStyle)
         for(index, indexTitle) in actionTitles.enumerated(){
-            let action = UIAlertAction(title: indexTitle, style: actionStyles[index], handler: actions[index])
+            let action = UIAlertAction(title: indexTitle, style: actionStyles[index], handler: actions[safe: index])
             alertController.addAction(action)
         }
         self.present(alertController, animated: true)
