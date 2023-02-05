@@ -9,13 +9,25 @@
 /* Begin PBXBuildFile section */
 		FB9A7714298F8137008EE4CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9A7713298F8137008EE4CE /* AppDelegate.swift */; };
 		FB9A7716298F8137008EE4CE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9A7715298F8137008EE4CE /* SceneDelegate.swift */; };
-		FB9A7718298F8137008EE4CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9A7717298F8137008EE4CE /* ViewController.swift */; };
-		FB9A771B298F8137008EE4CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB9A7719298F8137008EE4CE /* Main.storyboard */; };
 		FB9A771D298F8137008EE4CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB9A771C298F8137008EE4CE /* Assets.xcassets */; };
 		FB9A7720298F8137008EE4CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB9A771E298F8137008EE4CE /* LaunchScreen.storyboard */; };
 		FB9A772B298F8138008EE4CE /* VSAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9A772A298F8138008EE4CE /* VSAppTests.swift */; };
 		FB9A7735298F8138008EE4CE /* VSAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9A7734298F8138008EE4CE /* VSAppUITests.swift */; };
 		FB9A7737298F8138008EE4CE /* VSAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9A7736298F8138008EE4CE /* VSAppUITestsLaunchTests.swift */; };
+		FB9A7747298F8621008EE4CE /* Extenstions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9A7746298F8621008EE4CE /* Extenstions.swift */; };
+		FB9A774A298F86E1008EE4CE /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9A7749298F86E1008EE4CE /* Errors.swift */; };
+		FB9A774C298F86FC008EE4CE /* SourceURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9A774B298F86FC008EE4CE /* SourceURL.swift */; };
+		FB9A774E298F88B7008EE4CE /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9A774D298F88B7008EE4CE /* APIService.swift */; };
+		FB9A7750298F8C78008EE4CE /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9A774F298F8C78008EE4CE /* NetworkManager.swift */; };
+		FB9A7756298F9436008EE4CE /* ProductList.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9A7755298F9436008EE4CE /* ProductList.swift */; };
+		FB9A7758298F946D008EE4CE /* ProductList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB9A7757298F946D008EE4CE /* ProductList.storyboard */; };
+		FB9A775B298F94FE008EE4CE /* VSBaseTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9A775A298F94FE008EE4CE /* VSBaseTabBarController.swift */; };
+		FB9A775D298F96E5008EE4CE /* ProductListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9A775C298F96E5008EE4CE /* ProductListViewController.swift */; };
+		FB9A775F298F9704008EE4CE /* Storyboards.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9A775E298F9704008EE4CE /* Storyboards.swift */; };
+		FB9A7763298F9837008EE4CE /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB9A7762298F9837008EE4CE /* Profile.storyboard */; };
+		FB9A7765298F9846008EE4CE /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9A7764298F9846008EE4CE /* ProfileViewController.swift */; };
+		FB9A7767298F9C54008EE4CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB9A7766298F9C54008EE4CE /* Main.storyboard */; };
+		FB9A7769298F9CE5008EE4CE /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9A7768298F9CE5008EE4CE /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +51,6 @@
 		FB9A7710298F8137008EE4CE /* VSApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VSApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB9A7713298F8137008EE4CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FB9A7715298F8137008EE4CE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FB9A7717298F8137008EE4CE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FB9A771A298F8137008EE4CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FB9A771C298F8137008EE4CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB9A771F298F8137008EE4CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FB9A7721298F8137008EE4CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +59,20 @@
 		FB9A7730298F8138008EE4CE /* VSAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VSAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB9A7734298F8138008EE4CE /* VSAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VSAppUITests.swift; sourceTree = "<group>"; };
 		FB9A7736298F8138008EE4CE /* VSAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VSAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FB9A7746298F8621008EE4CE /* Extenstions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extenstions.swift; sourceTree = "<group>"; };
+		FB9A7749298F86E1008EE4CE /* Errors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
+		FB9A774B298F86FC008EE4CE /* SourceURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceURL.swift; sourceTree = "<group>"; };
+		FB9A774D298F88B7008EE4CE /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		FB9A774F298F8C78008EE4CE /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		FB9A7755298F9436008EE4CE /* ProductList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductList.swift; sourceTree = "<group>"; };
+		FB9A7757298F946D008EE4CE /* ProductList.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ProductList.storyboard; sourceTree = "<group>"; };
+		FB9A775A298F94FE008EE4CE /* VSBaseTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VSBaseTabBarController.swift; sourceTree = "<group>"; };
+		FB9A775C298F96E5008EE4CE /* ProductListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListViewController.swift; sourceTree = "<group>"; };
+		FB9A775E298F9704008EE4CE /* Storyboards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboards.swift; sourceTree = "<group>"; };
+		FB9A7762298F9837008EE4CE /* Profile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		FB9A7764298F9846008EE4CE /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		FB9A7766298F9C54008EE4CE /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		FB9A7768298F9CE5008EE4CE /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,12 +123,16 @@
 		FB9A7712298F8137008EE4CE /* VSApp */ = {
 			isa = PBXGroup;
 			children = (
-				FB9A7713298F8137008EE4CE /* AppDelegate.swift */,
-				FB9A7715298F8137008EE4CE /* SceneDelegate.swift */,
-				FB9A7717298F8137008EE4CE /* ViewController.swift */,
-				FB9A7719298F8137008EE4CE /* Main.storyboard */,
+				FB9A7748298F86D0008EE4CE /* Networking */,
+				FB9A7745298F85FB008EE4CE /* Helpers */,
+				FB9A7759298F94E7008EE4CE /* VSBaseViews */,
+				FB9A7744298F8523008EE4CE /* Application */,
+				FB9A776A298F9D8C008EE4CE /* Login */,
+				FB9A7760298F980D008EE4CE /* Profile */,
+				FB9A7751298F93D2008EE4CE /* List */,
 				FB9A771C298F8137008EE4CE /* Assets.xcassets */,
 				FB9A771E298F8137008EE4CE /* LaunchScreen.storyboard */,
+				FB9A7766298F9C54008EE4CE /* Main.storyboard */,
 				FB9A7721298F8137008EE4CE /* Info.plist */,
 			);
 			path = VSApp;
@@ -125,6 +153,102 @@
 				FB9A7736298F8138008EE4CE /* VSAppUITestsLaunchTests.swift */,
 			);
 			path = VSAppUITests;
+			sourceTree = "<group>";
+		};
+		FB9A7744298F8523008EE4CE /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				FB9A7713298F8137008EE4CE /* AppDelegate.swift */,
+				FB9A7715298F8137008EE4CE /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		FB9A7745298F85FB008EE4CE /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				FB9A7746298F8621008EE4CE /* Extenstions.swift */,
+				FB9A775E298F9704008EE4CE /* Storyboards.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		FB9A7748298F86D0008EE4CE /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				FB9A7749298F86E1008EE4CE /* Errors.swift */,
+				FB9A774D298F88B7008EE4CE /* APIService.swift */,
+				FB9A774F298F8C78008EE4CE /* NetworkManager.swift */,
+				FB9A774B298F86FC008EE4CE /* SourceURL.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		FB9A7751298F93D2008EE4CE /* List */ = {
+			isa = PBXGroup;
+			children = (
+				FB9A7754298F940D008EE4CE /* Model */,
+				FB9A7753298F9402008EE4CE /* ViewModel */,
+				FB9A7752298F93FC008EE4CE /* View */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		FB9A7752298F93FC008EE4CE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FB9A7757298F946D008EE4CE /* ProductList.storyboard */,
+				FB9A775C298F96E5008EE4CE /* ProductListViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FB9A7753298F9402008EE4CE /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		FB9A7754298F940D008EE4CE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FB9A7755298F9436008EE4CE /* ProductList.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FB9A7759298F94E7008EE4CE /* VSBaseViews */ = {
+			isa = PBXGroup;
+			children = (
+				FB9A775A298F94FE008EE4CE /* VSBaseTabBarController.swift */,
+			);
+			path = VSBaseViews;
+			sourceTree = "<group>";
+		};
+		FB9A7760298F980D008EE4CE /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				FB9A7761298F9814008EE4CE /* View */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		FB9A7761298F9814008EE4CE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FB9A7762298F9837008EE4CE /* Profile.storyboard */,
+				FB9A7764298F9846008EE4CE /* ProfileViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FB9A776A298F9D8C008EE4CE /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				FB9A7768298F9CE5008EE4CE /* LoginViewController.swift */,
+			);
+			path = Login;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,9 +355,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB9A7758298F946D008EE4CE /* ProductList.storyboard in Resources */,
+				FB9A7767298F9C54008EE4CE /* Main.storyboard in Resources */,
 				FB9A7720298F8137008EE4CE /* LaunchScreen.storyboard in Resources */,
+				FB9A7763298F9837008EE4CE /* Profile.storyboard in Resources */,
 				FB9A771D298F8137008EE4CE /* Assets.xcassets in Resources */,
-				FB9A771B298F8137008EE4CE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +384,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB9A7718298F8137008EE4CE /* ViewController.swift in Sources */,
+				FB9A774A298F86E1008EE4CE /* Errors.swift in Sources */,
+				FB9A7756298F9436008EE4CE /* ProductList.swift in Sources */,
+				FB9A775D298F96E5008EE4CE /* ProductListViewController.swift in Sources */,
+				FB9A775B298F94FE008EE4CE /* VSBaseTabBarController.swift in Sources */,
+				FB9A775F298F9704008EE4CE /* Storyboards.swift in Sources */,
 				FB9A7714298F8137008EE4CE /* AppDelegate.swift in Sources */,
+				FB9A7765298F9846008EE4CE /* ProfileViewController.swift in Sources */,
+				FB9A7747298F8621008EE4CE /* Extenstions.swift in Sources */,
+				FB9A7750298F8C78008EE4CE /* NetworkManager.swift in Sources */,
 				FB9A7716298F8137008EE4CE /* SceneDelegate.swift in Sources */,
+				FB9A774E298F88B7008EE4CE /* APIService.swift in Sources */,
+				FB9A7769298F9CE5008EE4CE /* LoginViewController.swift in Sources */,
+				FB9A774C298F86FC008EE4CE /* SourceURL.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +433,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		FB9A7719298F8137008EE4CE /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FB9A771A298F8137008EE4CE /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		FB9A771E298F8137008EE4CE /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -441,7 +569,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = VSApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = Main.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
@@ -473,7 +601,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = VSApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = Main.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
@@ -545,9 +673,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.binil.VSAppUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				TEST_TARGET_NAME = VSApp;
 			};
 			name = Debug;
@@ -563,9 +694,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.binil.VSAppUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				TEST_TARGET_NAME = VSApp;
 			};
 			name = Release;
