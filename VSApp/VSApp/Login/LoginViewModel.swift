@@ -20,7 +20,7 @@ class LoginViewModel {
     }
     
     var passwordValidation: String? {
-        if (password ?? "").isValidPassword() {
+        if !(password ?? "").isValidPassword() {
             return "invalidPassword".localized()
         }
         return nil

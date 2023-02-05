@@ -77,7 +77,7 @@ public enum PredicateFormat {
 
 public enum RegularExpression: String {
   case email = "[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,}"
-  case password = "(?=.*[A-Z])(?=.*[0-9])(?=.*[a-z])(?=.*[^a-zA-Z0-9]).{8,}"
+  case password = "(?=.*[A-Z])(?=.*[0-9])(?=.*[a-z])(?=.*?[#?!@$%^&<>*~:`-]).{8,}"
 }
 
 extension UIView {
