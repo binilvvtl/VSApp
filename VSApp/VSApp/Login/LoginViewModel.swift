@@ -14,14 +14,14 @@ class LoginViewModel {
     var emailValidation: String? {
         
         if !(email ?? "").isValidEmail() {
-            return "Invalid email"
+            return "invalidEmail".localized()
         }
         return nil
     }
     
     var passwordValidation: String? {
         if (password ?? "").isValidPassword() {
-            return "Invalid Password"
+            return "invalidPassword".localized()
         }
         return nil
     }

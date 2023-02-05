@@ -32,6 +32,17 @@
 		FB9A7767298F9C54008EE4CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB9A7766298F9C54008EE4CE /* Main.storyboard */; };
 		FB9A7769298F9CE5008EE4CE /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9A7768298F9CE5008EE4CE /* LoginViewController.swift */; };
 		FB9A776C298FC76A008EE4CE /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9A776B298FC76A008EE4CE /* LoginViewModel.swift */; };
+		FB9A776E298FCB6C008EE4CE /* VSBaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9A776D298FCB6C008EE4CE /* VSBaseNavigationController.swift */; };
+		FB9A7772298FCBCD008EE4CE /* ProfileList.json in Resources */ = {isa = PBXBuildFile; fileRef = FB9A7771298FCBCD008EE4CE /* ProfileList.json */; };
+		FB9A7774298FCBF9008EE4CE /* ProductList.json in Resources */ = {isa = PBXBuildFile; fileRef = FB9A7773298FCBF9008EE4CE /* ProductList.json */; };
+		FB9A7777298FCD82008EE4CE /* ProductListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9A7775298FCD82008EE4CE /* ProductListTableViewCell.swift */; };
+		FB9A7778298FCD82008EE4CE /* ProductListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB9A7776298FCD82008EE4CE /* ProductListTableViewCell.xib */; };
+		FB9A777B298FD19F008EE4CE /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = FB9A777A298FD19F008EE4CE /* SDWebImage */; };
+		FB9A777D298FD468008EE4CE /* ProductListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9A777C298FD468008EE4CE /* ProductListViewModel.swift */; };
+		FB9A777F298FEE42008EE4CE /* VSSpinnerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9A777E298FEE42008EE4CE /* VSSpinnerViewController.swift */; };
+		FB9A7781298FF01A008EE4CE /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = FB9A7780298FF01A008EE4CE /* Localizable.strings */; };
+		FB9A7787298FFD70008EE4CE /* ProductDetail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB9A7786298FFD70008EE4CE /* ProductDetail.storyboard */; };
+		FB9A7789298FFD88008EE4CE /* ProductDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9A7788298FFD88008EE4CE /* ProductDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,6 +98,16 @@
 		FB9A7766298F9C54008EE4CE /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		FB9A7768298F9CE5008EE4CE /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		FB9A776B298FC76A008EE4CE /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		FB9A776D298FCB6C008EE4CE /* VSBaseNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VSBaseNavigationController.swift; sourceTree = "<group>"; };
+		FB9A7771298FCBCD008EE4CE /* ProfileList.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ProfileList.json; sourceTree = "<group>"; };
+		FB9A7773298FCBF9008EE4CE /* ProductList.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ProductList.json; sourceTree = "<group>"; };
+		FB9A7775298FCD82008EE4CE /* ProductListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListTableViewCell.swift; sourceTree = "<group>"; };
+		FB9A7776298FCD82008EE4CE /* ProductListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductListTableViewCell.xib; sourceTree = "<group>"; };
+		FB9A777C298FD468008EE4CE /* ProductListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListViewModel.swift; sourceTree = "<group>"; };
+		FB9A777E298FEE42008EE4CE /* VSSpinnerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VSSpinnerViewController.swift; sourceTree = "<group>"; };
+		FB9A7780298FF01A008EE4CE /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		FB9A7786298FFD70008EE4CE /* ProductDetail.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ProductDetail.storyboard; sourceTree = "<group>"; };
+		FB9A7788298FFD88008EE4CE /* ProductDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +115,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB9A777B298FD19F008EE4CE /* SDWebImage in Frameworks */,
 				3818D960405413AC0FC3C822 /* Pods_VSApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -171,8 +193,8 @@
 				FB9A7744298F8523008EE4CE /* Application */,
 				FB9A776A298F9D8C008EE4CE /* Login */,
 				FB9A7760298F980D008EE4CE /* Profile */,
-				FB9A7751298F93D2008EE4CE /* List */,
-				FB9A771C298F8137008EE4CE /* Assets.xcassets */,
+				FB9A7751298F93D2008EE4CE /* Product */,
+				FB9A7770298FCBB5008EE4CE /* Resources */,
 				FB9A771E298F8137008EE4CE /* LaunchScreen.storyboard */,
 				FB9A7766298F9C54008EE4CE /* Main.storyboard */,
 				FB9A7721298F8137008EE4CE /* Info.plist */,
@@ -226,14 +248,14 @@
 			path = Networking;
 			sourceTree = "<group>";
 		};
-		FB9A7751298F93D2008EE4CE /* List */ = {
+		FB9A7751298F93D2008EE4CE /* Product */ = {
 			isa = PBXGroup;
 			children = (
 				FB9A7754298F940D008EE4CE /* Model */,
-				FB9A7753298F9402008EE4CE /* ViewModel */,
-				FB9A7752298F93FC008EE4CE /* View */,
+				FB9A7783298FFD02008EE4CE /* Detail */,
+				FB9A7782298FFCC5008EE4CE /* List */,
 			);
-			path = List;
+			path = Product;
 			sourceTree = "<group>";
 		};
 		FB9A7752298F93FC008EE4CE /* View */ = {
@@ -241,6 +263,8 @@
 			children = (
 				FB9A7757298F946D008EE4CE /* ProductList.storyboard */,
 				FB9A775C298F96E5008EE4CE /* ProductListViewController.swift */,
+				FB9A7775298FCD82008EE4CE /* ProductListTableViewCell.swift */,
+				FB9A7776298FCD82008EE4CE /* ProductListTableViewCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -248,6 +272,7 @@
 		FB9A7753298F9402008EE4CE /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				FB9A777C298FD468008EE4CE /* ProductListViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -264,6 +289,8 @@
 			isa = PBXGroup;
 			children = (
 				FB9A775A298F94FE008EE4CE /* VSBaseTabBarController.swift */,
+				FB9A776D298FCB6C008EE4CE /* VSBaseNavigationController.swift */,
+				FB9A777E298FEE42008EE4CE /* VSSpinnerViewController.swift */,
 			);
 			path = VSBaseViews;
 			sourceTree = "<group>";
@@ -294,6 +321,51 @@
 			path = Login;
 			sourceTree = "<group>";
 		};
+		FB9A7770298FCBB5008EE4CE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FB9A771C298F8137008EE4CE /* Assets.xcassets */,
+				FB9A7780298FF01A008EE4CE /* Localizable.strings */,
+				FB9A7771298FCBCD008EE4CE /* ProfileList.json */,
+				FB9A7773298FCBF9008EE4CE /* ProductList.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		FB9A7782298FFCC5008EE4CE /* List */ = {
+			isa = PBXGroup;
+			children = (
+				FB9A7753298F9402008EE4CE /* ViewModel */,
+				FB9A7752298F93FC008EE4CE /* View */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		FB9A7783298FFD02008EE4CE /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				FB9A7785298FFD30008EE4CE /* ViewModel */,
+				FB9A7784298FFD27008EE4CE /* View */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		FB9A7784298FFD27008EE4CE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FB9A7786298FFD70008EE4CE /* ProductDetail.storyboard */,
+				FB9A7788298FFD88008EE4CE /* ProductDetailViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FB9A7785298FFD30008EE4CE /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -312,6 +384,9 @@
 			dependencies = (
 			);
 			name = VSApp;
+			packageProductDependencies = (
+				FB9A777A298FD19F008EE4CE /* SDWebImage */,
+			);
 			productName = VSApp;
 			productReference = FB9A7710298F8137008EE4CE /* VSApp.app */;
 			productType = "com.apple.product-type.application";
@@ -387,6 +462,9 @@
 				Base,
 			);
 			mainGroup = FB9A7707298F8137008EE4CE;
+			packageReferences = (
+				FB9A7779298FD19F008EE4CE /* XCRemoteSwiftPackageReference "SDWebImage" */,
+			);
 			productRefGroup = FB9A7711298F8137008EE4CE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -403,9 +481,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB9A7774298FCBF9008EE4CE /* ProductList.json in Resources */,
 				FB9A7758298F946D008EE4CE /* ProductList.storyboard in Resources */,
+				FB9A7772298FCBCD008EE4CE /* ProfileList.json in Resources */,
 				FB9A7767298F9C54008EE4CE /* Main.storyboard in Resources */,
+				FB9A7781298FF01A008EE4CE /* Localizable.strings in Resources */,
+				FB9A7787298FFD70008EE4CE /* ProductDetail.storyboard in Resources */,
 				FB9A7720298F8137008EE4CE /* LaunchScreen.storyboard in Resources */,
+				FB9A7778298FCD82008EE4CE /* ProductListTableViewCell.xib in Resources */,
 				FB9A7763298F9837008EE4CE /* Profile.storyboard in Resources */,
 				FB9A771D298F8137008EE4CE /* Assets.xcassets in Resources */,
 			);
@@ -536,6 +619,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB9A774A298F86E1008EE4CE /* Errors.swift in Sources */,
+				FB9A776E298FCB6C008EE4CE /* VSBaseNavigationController.swift in Sources */,
 				FB9A7756298F9436008EE4CE /* ProductList.swift in Sources */,
 				FB9A775D298F96E5008EE4CE /* ProductListViewController.swift in Sources */,
 				FB9A775B298F94FE008EE4CE /* VSBaseTabBarController.swift in Sources */,
@@ -543,11 +627,15 @@
 				FB9A7714298F8137008EE4CE /* AppDelegate.swift in Sources */,
 				FB9A776C298FC76A008EE4CE /* LoginViewModel.swift in Sources */,
 				FB9A7765298F9846008EE4CE /* ProfileViewController.swift in Sources */,
+				FB9A777F298FEE42008EE4CE /* VSSpinnerViewController.swift in Sources */,
+				FB9A7777298FCD82008EE4CE /* ProductListTableViewCell.swift in Sources */,
 				FB9A7747298F8621008EE4CE /* Extenstions.swift in Sources */,
 				FB9A7750298F8C78008EE4CE /* NetworkManager.swift in Sources */,
 				FB9A7716298F8137008EE4CE /* SceneDelegate.swift in Sources */,
 				FB9A774E298F88B7008EE4CE /* APIService.swift in Sources */,
 				FB9A7769298F9CE5008EE4CE /* LoginViewController.swift in Sources */,
+				FB9A7789298FFD88008EE4CE /* ProductDetailViewController.swift in Sources */,
+				FB9A777D298FD468008EE4CE /* ProductListViewModel.swift in Sources */,
 				FB9A774C298F86FC008EE4CE /* SourceURL.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -902,6 +990,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FB9A7779298FD19F008EE4CE /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FB9A777A298FD19F008EE4CE /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FB9A7779298FD19F008EE4CE /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = FB9A7708298F8137008EE4CE /* Project object */;
 }

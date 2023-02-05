@@ -1,0 +1,87 @@
+{
+  "data": {
+    "products": [
+      {
+        "id": "1",
+        "brand": "VICTORIA'S SECRET",
+        "name": "Bombshell Eau de Parfum 100ML",
+        "productDesc": "THERE's A BOMBSHELL IN EVERY WOMAN. CONFIDENT &AMP; BOLD, AMERICAs NO . 1 FRAGRANCEIS A SPARKLING MIX OF FRESH-CUT PEONIES AND AFTERNOON SUN. CITRUS NOTES AND BRAZILIAN PURPLE PASSION FRUIT START BOMBSHELL OFF WITH BRIGHT, EXOTIC SPARKLE.",
+        "price": "200",
+        "offerPrice": "150",
+        "productUrl": "https://www.victoriassecretbeauty.in/on/demandware.static/-/Sites-victoria_secret_master_catalog/default/dwaa448da2/large/gr2muwx6e4jk2c6_AABoAY6LC8TzxPWj5M5ad8A5a_111893792457-2.jpg"
+      },
+      {
+        "id": "2",
+        "brand": "VICTORIA'S SECRET",
+        "name": "Fine Fragrance Mist",
+        "productDesc": "OUR ICONIC FRAGRANCE, IN A LIGHT-AS-AIR MIST. CONFIDENT &AMP; GLAMOROUS, ATTITUDE IN A BOTTLE. ",
+        "price": "200",
+        "offerPrice": "150",
+        "productUrl": "https://www.victoriassecretbeauty.in/on/demandware.static/-/Sites-victoria_secret_master_catalog/default/dwaa448da2/large/gr2muwx6e4jk2c6_AABoAY6LC8TzxPWj5M5ad8A5a_111893792457-2.jpg"
+      },
+      {
+        "id": "3",
+        "brand": "VICTORIA'S SECRET",
+        "name": "Travel Fine Fragrance Mist",
+        "productDesc": "OUR ICONIC FRAGRANCE, IN A TRAVEL-READY MINI MIST. CONFIDENT &AMP; GLAMOROUS, ATTITUDE IN A BOTTLE",
+        "price": "200",
+        "offerPrice": "150",
+        "productUrl": "https://www.victoriassecretbeauty.in/on/demandware.static/-/Sites-victoria_secret_master_catalog/default/dwaa448da2/large/gr2muwx6e4jk2c6_AABoAY6LC8TzxPWj5M5ad8A5a_111893792457-2.jpg"
+      },
+      {
+        "id": "4",
+        "brand": "VICTORIA'S SECRET",
+        "name": "Endless Autumn Fragrance Mist Lost In A Daydream",
+        "productDesc": "GET SWEPT AWAY IN THE BEAUTY OF FALL MOMENTS. THE WARMTH OF SUN MINGLES WITH BREEZY, MEADOW AIR.",
+        "price": "200",
+        "offerPrice": "150",
+        "productUrl": "https://www.victoriassecretbeauty.in/on/demandware.static/-/Sites-victoria_secret_master_catalog/default/dwaa448da2/large/gr2muwx6e4jk2c6_AABoAY6LC8TzxPWj5M5ad8A5a_111893792457-2.jpg"
+      },
+      {
+        "id": "5",
+        "brand": "VICTORIA'S SECRET",
+        "name": "Shimmer Fragrance Mist Pure Seduction",
+        "productDesc": "THE SHIMMER MIST YOU LOVE IS BACK WITH A NEW LOOK! SHIMMERING AND FRAGRANT, THIS REFRESHING MIST GIVES YOU A RADIANT GLOW FROM HEAD TO TOE",
+        "price": "200",
+        "offerPrice": "150",
+        "productUrl": "https://www.victoriassecretbeauty.in/on/demandware.static/-/Sites-victoria_secret_master_catalog/default/dwaa448da2/large/gr2muwx6e4jk2c6_AABoAY6LC8TzxPWj5M5ad8A5a_111893792457-2.jpg"
+      },
+      {
+        "id": "6",
+        "brand": "VICTORIA'S SECRET",
+        "name": "Limited Edition Classic Fragrance Mists",
+        "productDesc": "IMMERSE YOURSELF IN ICONIC CLASSICS STRAWBERRIES & CHAMPAGNE AND PEAR GLACÉ, PLUS NEWER FAVORITES",
+        "price": "200",
+        "offerPrice": "150",
+        "productUrl": "https://www.victoriassecretbeauty.in/on/demandware.static/-/Sites-victoria_secret_master_catalog/default/dwaa448da2/large/gr2muwx6e4jk2c6_AABoAY6LC8TzxPWj5M5ad8A5a_111893792457-2.jpg"
+      },
+      {
+        "id": "7",
+        "brand": "VICTORIA'S SECRET",
+        "name": "Honey Lotion Nourishing Body Lotion with Pure Honey",
+        "productDesc": "NOURISHING AND HYDRATING, THIS MADE-BY-BEES CREAM IS SWEET TO SKIN WITH PURE HONEY AND SHEA BUTTER. SMOOTH ON FOR A HEALTHY-LOOKING GLOW AND SUBTLE-SWEET, COMFORTING SCENT.",
+        "price": "200",
+        "offerPrice": "150",
+        "productUrl": "https://www.victoriassecretbeauty.in/on/demandware.static/-/Sites-victoria_secret_master_catalog/default/dwaa448da2/large/gr2muwx6e4jk2c6_AABoAY6LC8TzxPWj5M5ad8A5a_111893792457-2.jpg"
+      },
+      {
+        "id": "8",
+        "brand": "VICTORIA'S SECRET",
+        "name": "Bombshell Eau de Parfum 100ML",
+        "productDesc": "THERE's A BOMBSHELL IN EVERY WOMAN. CONFIDENT &AMP; BOLD, AMERICAs NO . 1 FRAGRANCEIS A SPARKLING MIX OF FRESH-CUT PEONIES AND AFTERNOON SUN. CITRUS NOTES AND BRAZILIAN PURPLE PASSION FRUIT START BOMBSHELL OFF WITH BRIGHT, EXOTIC SPARKLE.",
+        "price": "200",
+        "offerPrice": "150",
+        "productUrl": "https://www.victoriassecretbeauty.in/on/demandware.static/-/Sites-victoria_secret_master_catalog/default/dwaa448da2/large/gr2muwx6e4jk2c6_AABoAY6LC8TzxPWj5M5ad8A5a_111893792457-2.jpg"
+      },
+      {
+        "id": "9",
+        "brand": "VICTORIA'S SECRET",
+        "name": "Bombshell Eau de Parfum 100ML",
+        "productDesc": "THERE's A BOMBSHELL IN EVERY WOMAN. CONFIDENT &AMP; BOLD, AMERICAs NO . 1 FRAGRANCEIS A SPARKLING MIX OF FRESH-CUT PEONIES AND AFTERNOON SUN. CITRUS NOTES AND BRAZILIAN PURPLE PASSION FRUIT START BOMBSHELL OFF WITH BRIGHT, EXOTIC SPARKLE.",
+        "price": "200",
+        "offerPrice": "150",
+        "productUrl": "https://www.victoriassecretbeauty.in/on/demandware.static/-/Sites-victoria_secret_master_catalog/default/dwaa448da2/large/gr2muwx6e4jk2c6_AABoAY6LC8TzxPWj5M5ad8A5a_111893792457-2.jpg"
+      }
+    ]
+  }
+}

@@ -30,7 +30,7 @@ final class LoginViewController: UIViewController {
     }
     
     private func setupEamilTextfiled() {
-        emailTextField.placeholder = "Email"
+        emailTextField.placeholder = "email".localized()
         emailTextField.lineErrorColor = .red
         emailTextField.errorColor = .red
         emailTextField.textErrorColor = .red
@@ -43,7 +43,7 @@ final class LoginViewController: UIViewController {
     }
     
     private func setupPasswordTextfiled() {
-        passwordTextField.placeholder = "Password"
+        passwordTextField.placeholder = "password".localized()
         passwordTextField.lineErrorColor = .red
         passwordTextField.errorColor = .red
         passwordTextField.textErrorColor = .red

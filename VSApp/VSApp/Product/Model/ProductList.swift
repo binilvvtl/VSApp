@@ -9,12 +9,12 @@ import Foundation
 
 struct Product: Decodable {
   let id: String
-  let brand: String
-  let name: String
-  let productDesc: String
-  let price: String
-  let offerPrice: String
-  let productUrl: String
+  let brand: String?
+  let name: String?
+  let productDesc: String?
+  let price: String?
+  let offerPrice: String?
+  let productUrl: String?
 }
 
 struct ProductData: Decodable {
