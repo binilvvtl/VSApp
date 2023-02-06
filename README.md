@@ -16,8 +16,7 @@ profile page will display details of profile it use the model from api and show 
 App works only in  Dark mode.
 
 ## Coverage
-![Image of Coverage](Documentation/ViewModelCoverage.png)
-
+![Coverage](Documentation/ViewModelCoverage.png)
 ## Note Password Policy
 
 - Contains at least one uppercase letter (A-Z)
